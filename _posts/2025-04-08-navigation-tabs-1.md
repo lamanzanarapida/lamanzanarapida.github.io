@@ -1,5 +1,5 @@
 ---
-title: "Navegación con SwiftUI. Tabs. Episodio 1."
+title: "Navegación con SwiftUI. Tabs."
 excerpt_separator: "<!--more-->"
 categories:
   - SwiftUI
@@ -60,7 +60,7 @@ struct ContentView: View {
 }
 ```
 
-> Note: Es importante saber entender la definición de cada estructura quue estamos utilizando con SwiftUI. Y la mejor manera es utilizar la documentación oficial. En este caso, TabView se inicia como una función que devuelve un builder de TabContent, pero también con un valor seleccionado. De momento, nos quedaremos con la primera versión. [Ver en Apple](https://developer.apple.com/documentation/swiftui/tabview){:target="_blank"}
+> Note: Es importante saber entender la definición de cada estructura que estamos utilizando con SwiftUI. Y la mejor manera es utilizar la documentación oficial. En este caso, TabView se inicia como una función que devuelve un builder de TabContent, pero también con un valor seleccionado. De momento, nos quedaremos con la primera versión. [Ver en Apple](https://developer.apple.com/documentation/swiftui/tabview){:target="_blank"}
 
 ```swift
 struct TabView<SelectionValue, Content> where SelectionValue : Hashable, Content : View
