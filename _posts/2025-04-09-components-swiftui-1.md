@@ -91,7 +91,7 @@ init(
 
 Pues existe una forma muy sencilla que, para algunos objetos de SwiftUI podemos construir diferentes estilos de una forma muy limpia.
 
-> Note: Podemos construir estilos personalizados de una forma sencilla con Toggle, Date­Picker, Gauge, Progress­View, Label, Labeled­Content, Disclosure­Group, Control­Group, Group­Box, Form y Button.
+> Nota: Podemos construir estilos personalizados de una forma sencilla con Toggle, Date­Picker, Gauge, Progress­View, Label, Labeled­Content, Disclosure­Group, Control­Group, Group­Box, Form y Button.
 
 ```swift
 struct CustomButtonStyle: ButtonStyle {
