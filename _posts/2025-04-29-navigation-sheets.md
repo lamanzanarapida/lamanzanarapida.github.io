@@ -405,7 +405,7 @@ Así pues, refactoricemos utilizando este nuevo `.sheet`.
 
 ## Testing
 
-Podemos crear un nuevo test, que simule todo el proceso de añadir un nuevo ejercicio en el listado.
+Podemos crear un nuevo test, que simule todo el proceso de añadir un nuevo ejercicio en el listado. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.sheet.4)
 
 ```swift
 @Test func givenExercisesWhenAddButtonTappedNewExerciseAdded() async throws {
